@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+* {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+body {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 300;
+    margin: 10px 0 20px 0;;
+    cursor: default;
+}
+
+input {
+    border: none;
+    width: 100%;
+    font-size: 22px;
+    background: #eee;
+    padding: 8px 20px;
+}
+
+.checkbox {
+    width: 100%;
+}
+.label {
+   width:100%;
+    padding: 0 15px;
+    cursor: default;
+}
+
+ul {
+    margin: 20px 0;
+    padding: 0;
+}
+
+ul li {
+    width: 100%;
+    list-style-type: none;
+    background: #ab729d;
+    color: #fff;
+    margin-bottom: 1px;
+    padding: 8px 20px;
+    font-size: 22px;
+}
+
+
+.button {
+   text-align: right;
+   margin-right: 2px;
+   float: right;
+   display: inline-block;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #eee;
+    background-color: #ccc;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+#add_todo {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: pink;
+    color: #662929;
+    font-size: 16px;
+    border: none;
+    padding: 8px 20px;
+    letter-spacing: 2px;
+    box-shadow: 0 2px 0 0 #662929;
+    border-radius: 4px;
+    cursor: pointer;
+}

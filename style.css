@@ -1,0 +1,16 @@
+.change {
+   border-collapse: collapse;
+   margin: auto;
+}
+
+.change td,
+th {
+   border: 1px solid silver;
+   width: 183px;
+   height: 80px;
+}
+
+.colors {
+   width: 1vmin;
+   height: 1vmin;
+}
