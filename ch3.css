@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Adamina);
+body {
+	background-color: #4a072d;
+    background-image: url(http://www.transparenttextures.com/patterns/fabric-1-dark.png);
+    
+    font-family: 'Adamina', serif;
+    text-align: center;
+    color: #eee;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2 {
+    margin-top: 30%;
+    font-size: 60px;
+}
+
+p {
+    display: none;
+}
+
+label {
+    font-weight: 100;
+    padding: 10px;
+}
